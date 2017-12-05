@@ -4,21 +4,26 @@
 	<meta charset="UTF-8">
 	<title>Kisalala</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link href="css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div class="container">
+	
+	<div class="container">
+
+		<header>
+			<h1><a href="index.php">Kisalala</a></h1>
+			<p class="lead">One love <3</p>
+		</header>
+
+		<div class="content">
 			
-		</div> 
-	</header>
+		</div>
+		
 
-	<main>
+		<footer>
+			<p>&copy 2017</p>
+		</footer>
+	</div>
 
-	</main>
-
-	<footer>
-
-	</footer>
 </body>
 </html>
