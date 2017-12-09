@@ -26,14 +26,15 @@
 		</script>
 		<div id="refresh" class="content">
 			<?php 
-				$current_image = rand(1, 3);				
+				$current_image = rand(1, 44);				
 			 ?>
-			<img src="images/<?php echo $current_image?>.jpg" alt="current_image">
+			<div class="photo-size" style="width: 1200px; height: 720px; text-align: center;">
+				<img src="images/<?php echo $current_image?>.jpg" alt="current_image">
+			</div>
 		</div>
 		
-
 		<footer>
-			<p>&copy 2017</p>
+			<p>For Lala &copy; 2017</p>
 		</footer>
 	</div>
 
